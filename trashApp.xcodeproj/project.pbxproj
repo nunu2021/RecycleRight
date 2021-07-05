@@ -13,10 +13,13 @@
 		052AD75A23DCDC1B0016E64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AD75823DCDC1B0016E64A /* Main.storyboard */; };
 		052AD75C23DCDC1C0016E64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052AD75B23DCDC1C0016E64A /* Assets.xcassets */; };
 		052AD75F23DCDC1C0016E64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052AD75D23DCDC1C0016E64A /* LaunchScreen.storyboard */; };
+		052AD76723DCDFF60016E64A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052AD76623DCDFF60016E64A /* PhotoViewController.swift */; };
+		05CB6E5123DD1E0F0048FEE5 /* Recycle.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 05CB6E5023DD1E0E0048FEE5 /* Recycle.mlmodel */; };
+		05E815D7243FF7C800A70634 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E815D6243FF7C800A70634 /* Pulse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		052AD74F23DCDC1B0016E64A /* trashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		052AD74F23DCDC1B0016E64A /* RecycleRight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecycleRight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		052AD75223DCDC1B0016E64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		052AD75423DCDC1B0016E64A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		052AD75623DCDC1B0016E64A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		052AD75B23DCDC1C0016E64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		052AD75E23DCDC1C0016E64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052AD76023DCDC1C0016E64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052AD76623DCDFF60016E64A /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		05CB6E5023DD1E0E0048FEE5 /* Recycle.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Recycle.mlmodel; sourceTree = "<group>"; };
+		05E815D6243FF7C800A70634 /* Pulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		052AD75023DCDC1B0016E64A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				052AD74F23DCDC1B0016E64A /* trashApp.app */,
+				052AD74F23DCDC1B0016E64A /* RecycleRight.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +62,16 @@
 		052AD75123DCDC1B0016E64A /* trashApp */ = {
 			isa = PBXGroup;
 			children = (
+				05CB6E5023DD1E0E0048FEE5 /* Recycle.mlmodel */,
 				052AD75223DCDC1B0016E64A /* AppDelegate.swift */,
 				052AD75423DCDC1B0016E64A /* SceneDelegate.swift */,
 				052AD75623DCDC1B0016E64A /* ViewController.swift */,
+				052AD76623DCDFF60016E64A /* PhotoViewController.swift */,
 				052AD75823DCDC1B0016E64A /* Main.storyboard */,
 				052AD75B23DCDC1C0016E64A /* Assets.xcassets */,
 				052AD75D23DCDC1C0016E64A /* LaunchScreen.storyboard */,
 				052AD76023DCDC1C0016E64A /* Info.plist */,
+				05E815D6243FF7C800A70634 /* Pulse.swift */,
 			);
 			path = trashApp;
 			sourceTree = "<group>";
@@ -84,7 +93,7 @@
 			);
 			name = trashApp;
 			productName = trashApp;
-			productReference = 052AD74F23DCDC1B0016E64A /* trashApp.app */;
+			productReference = 052AD74F23DCDC1B0016E64A /* RecycleRight.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				052AD75723DCDC1B0016E64A /* ViewController.swift in Sources */,
+				052AD76723DCDFF60016E64A /* PhotoViewController.swift in Sources */,
 				052AD75323DCDC1B0016E64A /* AppDelegate.swift in Sources */,
+				05E815D7243FF7C800A70634 /* Pulse.swift in Sources */,
+				05CB6E5123DD1E0F0048FEE5 /* Recycle.mlmodel in Sources */,
 				052AD75523DCDC1B0016E64A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,13 +297,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJDDK27K9M;
 				INFOPLIST_FILE = trashApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NUNU.trashApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nunu.rr;
+				PRODUCT_NAME = RecycleRight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +315,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JJDDK27K9M;
 				INFOPLIST_FILE = trashApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NUNU.trashApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nunu.rr;
+				PRODUCT_NAME = RecycleRight;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
